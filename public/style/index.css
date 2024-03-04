@@ -1,0 +1,65 @@
+body {
+    background-image: url('../images/backgroundDogs.png');
+}
+.test {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px;
+    margin-top: 20%;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: beige;
+    border-radius: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-block: 5%;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.button{
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.dislike-button{
+    background-color: darkred;
+    box-shadow: 2px 2px darkred;
+}
+
+.like-button{
+    background-color: green;
+    box-shadow: 2px 2px green;
+}
+.login-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Stelle sicher, dass es über anderen Inhalten liegt */
+    
+}
+
+.login-icon img {
+    max-width: 100%; /* Das Bild behält seine ursprüngliche Größe bei, wird aber innerhalb des festgelegten Bereichs skaliert */
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 50%; /* Rundes Icon */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Optional: Schatten */
+    background-color: beige;
+}
